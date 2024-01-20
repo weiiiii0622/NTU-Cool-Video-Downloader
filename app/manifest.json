@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "NTU Cool 影片下載小工具",
+  "description": "一個用來下載NTU Cool上教學影片的小工具",
+  "version": "1.0",
+	"action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["debugger", "tabs"],
+  "host_permissions": ["https://cool.ntu.edu.tw/*", "https://cool-video.dlc.ntu.edu.tw/*", "https://yt-dl-web.vercel.app/*", "https://*/*"],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "icons": {
+    "16": "images/icon.png",
+    "24": "images/icon.png",
+    "32": "images/icon.png",
+    "64": "images/icon.png",
+    "128": "images/icon.png",
+    "512": "images/icon.png"
+  }
+}

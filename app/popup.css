@@ -1,0 +1,23 @@
+body {
+    width: 200px;
+    text-align: center;
+}
+
+.load-box {
+    display: none;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.inner-load-box {
+    width: 50px;
+    height: 50px;
+}
+
+.info-box {
+    display: none;
+}
+
+.video-section {
+    display: none;
+}
